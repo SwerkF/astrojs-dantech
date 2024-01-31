@@ -12,4 +12,3 @@ Un bon développeur web se doit d'avoir un portfolio qui lui correspond, d'autan
     <img src="https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white">
 </div>
 
-## Badges
