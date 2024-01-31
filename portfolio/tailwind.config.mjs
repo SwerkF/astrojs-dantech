@@ -5,23 +5,24 @@ export default {
 		themes: [
 		  {
 			mytheme: {
-				"primary": "#7dd3fc",
-							
-				"secondary": "#86efac",
-							
-				"accent": "#fef08a",
-							
-				"neutral": "#ffffff",
-							
-				"base-100": "#ffffff",
-							
-				"info": "#ffffff",
-							
-				"success": "#bef264",
-							
-				"warning": "#facc15",
-							
-				"error": "#fb7185",
+          
+				"primary": "#292524",
+						 
+				"secondary": "#7dd3fc",
+						 
+				"accent": "#bef264",
+						 
+				"neutral": "#111827",
+						 
+				"base-100": "#F5F5F5",
+						 
+				"info": "#7dd3fc",
+						 
+				"success": "#4ade80",
+						 
+				"warning": "#fde047",
+						 
+				"error": "#e90046",
 			},
 		  },
 		],
