@@ -8,9 +8,9 @@ export default {
           
 				"primary": "#292524",
 						 
-				"secondary": "#7dd3fc",
+				"secondary": "#c4b5fd",
 						 
-				"accent": "#bef264",
+				"accent": "#fecaca",
 						 
 				"neutral": "#111827",
 						 

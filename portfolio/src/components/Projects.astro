@@ -1,0 +1,55 @@
+---
+const projects = [{
+    name:"Projet 1",
+    description:"Description du projet 1",
+    languages:["HTML","CSS","JS"],
+    image:"https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+},{
+    name:"Projet 2",
+    description:"Description du projet 2",
+    languages:["HTML","CSS","JS"],
+    image:"https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+},{
+    name:"Projet 3",
+    description:"Description du projet 3",
+    languages:["HTML","CSS","JS"],
+    image:"https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+},]
+
+---
+
+<div class="relative min-h-screen overflow-hidden z-0">
+    <div class="flex justify-center flex-col">
+        <div class="hero hero-land">
+            <div class="hero-content text-center">
+                <div class="max-w-7xl">
+                    <h2 class="text-3xl font-bold mb-4">PROJECTS</h2>
+                    <div class="flex justify-center flex-row flex-wrap gap-5">
+                    {projects.map((item, index) => (
+                            <div class="card max-w-sm bg-base-100 shadow-xl">
+                                <figure>
+                                    <img src={item.image} alt="image" class="rounded-t-lg" />
+                                </figure>
+                                <div class="card-body">
+                                    <h2 class="card-title">
+                                        {item.languages.map((lang, index) => (
+                                            <div class="badge badge-outline">{lang}</div>
+                                        ))}
+                                    </h2>
+                                    <p>{item.description}</p>
+                                </div>
+                            </div>
+                    ))}
+                    
+                    </div>
+                    <div class="join mt-5">
+                        <button class="join-item btn btn-sm btn-active">1</button>
+                        <button class="join-item btn btn-sm">2</button>
+                        <button class="join-item btn btn-sm">3</button>
+                        <button class="join-item btn btn-sm">4</button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
