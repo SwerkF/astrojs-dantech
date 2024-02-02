@@ -25,13 +25,14 @@ const projects = [{
                 <div class="max-w-7xl">
                     <h2 class="text-3xl font-bold mb-4">PROJECTS</h2>
                     <div class="flex justify-center flex-row flex-wrap gap-5">
-                    {projects.map((item, index) => (
+                        {projects.map((item, index) => (
                             <div class="card max-w-sm bg-base-100 shadow-xl">
                                 <figure>
                                     <img src={item.image} alt="image" class="rounded-t-lg" />
                                 </figure>
                                 <div class="card-body">
                                     <h2 class="card-title">
+                                        {item.name}
                                         {item.languages.map((lang, index) => (
                                             <div class="badge badge-outline">{lang}</div>
                                         ))}
@@ -39,7 +40,7 @@ const projects = [{
                                     <p>{item.description}</p>
                                 </div>
                             </div>
-                    ))}
+                        ))}
                     
                     </div>
                     <div class="join mt-5">
